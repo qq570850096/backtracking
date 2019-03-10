@@ -1,13 +1,15 @@
-##递归与回溯
+# 递归与回溯
 
 **1. 树型问题**
 测试用例，[leetcode第17题](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/,"leetcode-cn")
 　　**给出一个数字字符串，返回这个数字字符串表示的所有字母组合**
- <div align=center>![手机](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Telephone-keypad2.svg/200px-Telephone-keypad2.svg.png)
+  
+ ![手机](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Telephone-keypad2.svg/200px-Telephone-keypad2.svg.png)
+ 
 >示例
 >>输入："23"
 输出：["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
-</div>
+
 ***
 ***
 需要考虑
@@ -417,8 +419,8 @@ public:
 **n皇后问题:**
 leetcode第51题
 **n 皇后问题研究的是如何将 n 个皇后放置在 n×n 的棋盘上，并且使皇后彼此之间不能相互攻击。**
-<div align="center">![n皇后](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/8-queens.png)
-</div>
+![n皇后](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/8-queens.png)
+
 
 >上图为 8 皇后问题的一种解法。
 >
