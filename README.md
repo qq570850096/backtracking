@@ -495,10 +495,10 @@ public:
 ```
 **N皇后问题还有很多优化的思路**
 **剪枝:如下图,只是其中一种优化思路**
-<div align="center">![剪枝](https://img-blog.csdn.net/20180116200329031?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvd2VpeGluXzM4Mzc5Nzcy/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)</div>
-<div align="center">
+![剪枝](https://img-blog.csdn.net/20180116200329031?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvd2VpeGluXzM4Mzc5Nzcy/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)</div>
+
 规模n|暴力法的节点|回溯法节点数|解个数|效率比
----|:--:|:--:|:--:|---:
+---|:--:|:--:|:--:|---
 4|340|60|2|17.6%
 5|3905|220|10|5.6%
 6|55986|894|4|1.6%
